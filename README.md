@@ -21,8 +21,6 @@
 
 &emsp;&emsp;行为型模式分为类行为模式和对象行为模式，前者采用继承机制来在类间分派行为，后者采用组合或聚合在对象间分配行为。由于组合关系或聚合关系比继承关系耦合度低，满足“合成复用原则”，所以对象行为模式比类行为模式具有更大的灵活性。
 
-&emsp;&emsp;本项目文字描述等资料在项目根目录的pdf文件夹下。
-
 &emsp;&emsp;本项目属于《设计模式系列》：  
 * [《通过代码示例，讲解单例模式：2种饿汉模式的实现、4种懒汉模式实现、序列化和反射是如何破坏单例的、如何防止序列化和反射破坏单例》](https://github.com/xiaoguangbiao-github/design_patterns_singleton.git)  
 * [《通过代码示例，讲解创建型模式：工厂方法模式、抽象工厂模式、原型模式、建造者模式》](https://github.com/xiaoguangbiao-github/design_patterns_create.git)  
@@ -1699,7 +1697,7 @@ public class Client {
         mSubscriptionSubject.attach(user2);
         mSubscriptionSubject.attach(user3);
         //公众号更新发出消息给订阅的微信用户
-        mSubscriptionSubject.notify("传智黑马的专栏更新了");
+        mSubscriptionSubject.notify("传智小黑的专栏更新了");
     }
 }
 
